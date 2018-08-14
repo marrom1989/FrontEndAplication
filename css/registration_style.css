@@ -1,0 +1,134 @@
+body {
+	
+	font-family: 'Roboto', sans-serif;	
+	color: #FBFBFB;
+	background-color: #330000;
+	margin: 0;
+}
+header {
+	
+	width: 100%;
+	padding: 30px 0;
+	background-color: #220000;
+	border-bottom: 1px solid #FFFFFF;
+	
+}
+.logo{
+	
+	width: 520px;
+	height: 70px;
+	margin-left: 50px;
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 5px;
+	float: left;
+}
+#clock{
+	
+	width: 550px;
+	margin-left: 1300px;
+	font-size: 50px;
+	padding-top: 20px;
+	text-align: center;
+}
+#container{
+	
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dataArea{
+	
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border: 2px solid #FFFFFF;
+}
+#registerLogo{
+	
+	border: 1px solid #FFFFFF;
+	height: 170px;
+	background-color: #BB0000;
+}
+#SingUp{
+	
+	font-size: 50px;
+	margin-left: 70px;
+	margin-top: 50px;
+	float: left;
+}
+#registerIcon{
+	
+	float: left;
+	margin-left: 190px;
+	margin-top: 50px;
+}
+.inputBlock{
+	
+	width: 400px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	padding: 15px;
+}
+#submit{
+	
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+input{
+	
+	display: block;
+	width: 300px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	outline: none;	
+	text-align: center;
+}
+input[type = text]:focus,
+input[type = email]:focus,
+input[type = password]:focus{
+	
+	background-color: #FFCCCC;
+	border: 2px solid #FF3333;
+}
+input[type = submit]{
+	
+	background-color: #BB0000;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	padding: 5px;
+	margin-top: 25px;
+	transition: all .3s ease-in-out;
+}
+input[type = submit]:hover{
+	
+	background-color: #DD0000;
+	color: #F9F9F9;	
+}
+.footer{
+	
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+	background-color: #220000;
+	padding: 20px 0;
+	bottom: 0px;
+	position: fixed;
+	border-top: 1px solid #FFFFFF;
+	
+}
+a#logoLink{
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,87 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset = "utf-8" />
+	<title>House budget</title>
+	<meta name = "discription" content = "Take kare of your home budget. This application helps you to hold your hand on your moneys!!" />
+	<meta name = "keywords" content = "budget, money, deposit, whithdraw, house budget, " />
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
+	
+	<link rel ="stylesheet" href = "cssFontello/fontello.css" type = "text/css" />
+	<link rel ="stylesheet" href = "css/balance_style.css" type = "text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	
+</head>
+
+<body>
+	<div class="wrapper"> 
+		<header>
+					<div class="logo"><a href ="index.html" id="logoLink"><i class = "icon-money"></i>House<span style="color: #CC0000">Budget </span></a></div>
+					<div id="clock">06.08.2018 | 12:00:00</div>
+					<div style = "clear: both"></div>
+		</header>
+		<main>
+				<article>
+						<div id ="container">
+									<div class="dropdown">
+										<button class="dropbutton">Select the balance range</button>
+										<div class="dropdown-content">
+											<a href="#">Current Month</a>
+											<a href="#">Previous Month</a>
+											<a href="#">Current Year</a>
+											<a href="#">Custom</a>
+										</div>
+									</div>
+								<div class ="incomeExpense">
+										<table id ="incomeTable">
+											<tr><th colspan = "2">Incomes</th></tr>
+											<tr><th>Category</th><th>Value of income</th></tr>
+											<tr><td>Payment</td><td></td></tr>
+											<tr><td>Bank Interest</td><td></td></tr>
+											<tr><td>Sales on allegro</td><td></td></tr>
+											</tr><td>Others</td><td></td></tr>
+											<tr><th>Sum:</th><td></td></tr>
+										</table>
+								</div>
+								<div class ="incomeExpense">
+										<table id ="expenseTable">
+											<tr><th colspan = "2">Expense</th></tr>
+											<tr><th>Category</th><th>Value of expense</th></tr>
+											<tr><td>Food</td><td></td></tr>
+											<tr><td>House</td><td></td></tr>
+											<tr><td>Transport</td><td></td></tr>
+											</tr><td>Telecomunication</td><td></td></tr>
+											</tr><td>Healthcare</td><td></td></tr>
+											</tr><td>Cloth</td><td></td></tr>
+											</tr><td>Hygiene</td><td></td></tr>
+											</tr><td>Kids</td><td></td></tr>
+											</tr><td>Entertainment</td><td></td></tr>
+											</tr><td>Trips</td><td></td></tr>
+											</tr><td>Trainings</td><td></td></tr>
+											</tr><td>Books</td><td></td></tr>
+											</tr><td>Savings</td><td></td></tr>
+											</tr><td>Pension</td><td></td></tr>
+											</tr><td>Repayment</td><td></td></tr>
+											</tr><td>Donation</td><td></td></tr>
+											</tr><td>Others</td><td></td></tr>
+											<tr><th>Sum:</th><td></td></tr>
+										</table>
+							</div>
+							<div id="piechart"></div>
+						</div>
+				</article>
+		</main>
+			<footer>
+					<div class = "footer"> HouseBudget.com &copy; 2018</div>
+			</footer>
+	</div>
+	<script type ="text/javascript" src = "js/jquery-3.3.1.min.js"></script>
+	<script type ="text/javascript" src = "js/balance.js"></script>
+	<script type ="text/javascript" src = "js/clock.js"></script>
+	<script type ="text/javascript" src = "js/hideAndShowElements.js"></script>
+</body>
+
+</html>

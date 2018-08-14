@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset = "utf-8" />
+	<title>House budget</title>
+	<meta name = "discription" content = "Take kare of your home budget. This application helps you to hold your hand on your moneys!!" />
+	<meta name = "keywords" content = "budget, money, deposit, whithdraw, house budget, " />
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
+	<link rel ="stylesheet" href = "cssFontello/fontello.css" type = "text/css" />
+	<link rel ="stylesheet" href = "css/add_expense_style.css" type = "text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<script  src = "clock.js"></script>
+</head>
+<body>
+		<header>
+					<div class="logo"><a href ="index.html" id="logoLink"><i class = "icon-money"></i>House<span style="color: #CC0000">Budget </span></a></div>
+					<div id="clock">06.08.2018 | 12:00:00</div>
+					<div style = "clear: both"></div>
+		</header>
+		<div id="container">
+			<main>
+				<article>
+						<form>
+							<div class = "inputBlock">
+								<input type = "text" placeholder = "Amount">
+							</div>
+							<div class = "inputBlock">
+								<input type = "date" placeholder = "Date">
+							</div>
+							<div class = "inputBlock">
+								<input type = "text" placeholder = "Payment method">
+							</div>
+							<div class = "inputBlock">
+									<div class ="radio">
+										<label><input type ="radio" id ="rad0" name ="choice" value = "Food">Food</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad1" name ="choice" value = "House">House</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad2" name ="choice" value = "Transport">Transport</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad3" name ="choice" value = "Telecomunication">Telecomunication</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad4" name ="choice" value = "Healthcare">Healthcare</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad5" name ="choice" value = "Cloth">Cloth</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad6" name ="choice" value = "Hygiene">Hygiene</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad7" name ="choice" value = "Kids">Kids</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad8" name ="choice" value = "Entertainment">Entertainment</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad9" name ="choice" value = "Trip">Trip</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad10" name ="choice" value = "Trainings">Trainings</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad11" name ="choice" value = "Books">Books</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad12" name ="choice" value = "Savings">Savings</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad13" name ="choice" value = "Pension">Pension</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad14" name ="choice" value = "Repayment">Repaymen</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad15" name ="choice" value = "Donation">Donation</label>
+									</div>
+									<div class ="radio">
+										<label><input type ="radio" id ="rad16" name ="choice" value = "Others">Others:</label>
+									</div>
+									<div id ="comment">
+										<input type ="text" id ="comm" placeholder = "Comment" value = "Comment"> 
+									</div>
+							</div>
+							<div id = "inputBlockB">
+								<input type = "submit" value="Add Expense">
+							</div>
+						</form>
+				</article>
+			</main>
+			</div>
+			<footer>
+					<div class = "footer"> HouseBudget.com &copy; 2018</div>
+			</footer>
+	<script type ="text/javascript" src = "js/jquery-3.3.1.min.js"></script>
+	<script type ="text/javascript" src = "js/clock.js"></script>
+	<script type ="text/javascript" src = "js/hideAndShowElements.js"></script>
+</body>
+
+</html>
